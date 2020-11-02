@@ -1,17 +1,32 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 import './App.css';
-import { Navigation, Footer, Home, About, Contact} from "./components";
+
+import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
+import Home from "./components/Home";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Lifestyle from './components/Lifestyle';
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Navigation />
+        
+        <Navigation/>
+
         <Switch>
-          <Route path="/" exact component={() => <Home />} />
+          <Route path="/projects" exact component={() => <Projects/>} />
+          <Route path="/lifestyle" exact component={() => <Lifestyle />} />
           <Route path="/about" exact component={() => <About />} />
-          <Route path="/projects" exact component={() => <Contact />} />
-        </Switch>
+          <Route path="/" component={() => <Home />} />
+        </Switch>        
+
         <Footer />
       </Router>
     </div>

@@ -2,9 +2,9 @@ import React from 'react';
 
 import './style.css';
 
-function About() {
+function Lifestyle() {
     return (
-        <div className="about">
+        <div className="lifestyle">
           <p id="tagged"> Tagged in {window.location.pathname.replace(/^\/+/, '')} </p>
 
           <div class="container">
@@ -17,7 +17,7 @@ function About() {
                 />
               </div>
               <div class="col-lg-5">
-                <h1 class="font-weight-light">About</h1>
+                <h1 class="font-weight-light">Lifestyle</h1>
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and typesetting
                   industry. Lorem Ipsum has been the industry's standard dummy text
@@ -31,4 +31,4 @@ function About() {
       );
 }
 
-export default About
+export default Lifestyle
