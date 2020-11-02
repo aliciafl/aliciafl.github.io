@@ -51,7 +51,7 @@ const Map = () => {
           //},
           //selectedHover: {}
         }}
-        //regionsSelectable={true}
+        regionsSelectable={true}
         series={{
           regions: [
             {

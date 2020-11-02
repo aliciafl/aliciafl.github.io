@@ -16,10 +16,8 @@ import Lifestyle from './components/Lifestyle';
 function App() {
   return (
     <div className="App">
-      <Router>
-
       <Navigation/>
-
+      <Router>
         <Switch>
           <Route path="/projects" exact component={() => <Projects/>} />
           <Route path="/lifestyle" exact component={() => <Lifestyle />} />
