@@ -15,6 +15,7 @@ You will also see any lint errors in the console.
 ### `run npm deploy`
 
 Creates a build directory with a production build of your app. Set up your favorite HTTP server so that a visitor to your site is served index.html, and requests to static paths like /static/js/main.<hash>.js are served with the contents of the /static/js/main.<hash>.js file.<br />
+
 See the section about [deployment](https://create-react-app.dev/docs/deployment/) for more information.
 
 
