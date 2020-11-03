@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/aliciafl.github.io/static/css/main.9d33b20f.chunk.css",
-    "main.js": "/aliciafl.github.io/static/js/main.d88b6f2e.chunk.js",
-    "main.js.map": "/aliciafl.github.io/static/js/main.d88b6f2e.chunk.js.map",
+    "main.css": "/aliciafl.github.io/static/css/main.bcd88e4c.chunk.css",
+    "main.js": "/aliciafl.github.io/static/js/main.9ba8d66e.chunk.js",
+    "main.js.map": "/aliciafl.github.io/static/js/main.9ba8d66e.chunk.js.map",
     "runtime-main.js": "/aliciafl.github.io/static/js/runtime-main.9d1a4160.js",
     "runtime-main.js.map": "/aliciafl.github.io/static/js/runtime-main.9d1a4160.js.map",
-    "static/js/2.66f7187e.chunk.js": "/aliciafl.github.io/static/js/2.66f7187e.chunk.js",
-    "static/js/2.66f7187e.chunk.js.map": "/aliciafl.github.io/static/js/2.66f7187e.chunk.js.map",
+    "static/js/2.c17d5aa5.chunk.js": "/aliciafl.github.io/static/js/2.c17d5aa5.chunk.js",
+    "static/js/2.c17d5aa5.chunk.js.map": "/aliciafl.github.io/static/js/2.c17d5aa5.chunk.js.map",
     "index.html": "/aliciafl.github.io/index.html",
-    "precache-manifest.c0a544549de9419dceacdf79969e8516.js": "/aliciafl.github.io/precache-manifest.c0a544549de9419dceacdf79969e8516.js",
+    "precache-manifest.211ab6a9bc9e78febccb29b12951dace.js": "/aliciafl.github.io/precache-manifest.211ab6a9bc9e78febccb29b12951dace.js",
     "service-worker.js": "/aliciafl.github.io/service-worker.js",
-    "static/css/main.9d33b20f.chunk.css.map": "/aliciafl.github.io/static/css/main.9d33b20f.chunk.css.map",
-    "static/js/2.66f7187e.chunk.js.LICENSE.txt": "/aliciafl.github.io/static/js/2.66f7187e.chunk.js.LICENSE.txt"
+    "static/css/main.bcd88e4c.chunk.css.map": "/aliciafl.github.io/static/css/main.bcd88e4c.chunk.css.map",
+    "static/js/2.c17d5aa5.chunk.js.LICENSE.txt": "/aliciafl.github.io/static/js/2.c17d5aa5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9d1a4160.js",
-    "static/js/2.66f7187e.chunk.js",
-    "static/css/main.9d33b20f.chunk.css",
-    "static/js/main.d88b6f2e.chunk.js"
+    "static/js/2.c17d5aa5.chunk.js",
+    "static/css/main.bcd88e4c.chunk.css",
+    "static/js/main.9ba8d66e.chunk.js"
   ]
 }
