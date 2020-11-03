@@ -4,10 +4,11 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+
 import './App.css';
 
-import Navigation from "./components/Navigation";
-import Footer from "./components/Footer";
+import Navigation from "./components/parts/Navigation";
+import Footer from "./components/parts/Footer";
 import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
@@ -16,7 +17,6 @@ import Lifestyle from './components/Lifestyle';
 function App() {
   return (
     <div className="App">
-      {/* <Router basename={`${process.env.PUBLIC_URL}/`}> */}
       <Router basename="/">
       <Navigation/>
 
@@ -25,7 +25,8 @@ function App() {
           <Route path="/lifestyle" exact component={() => <Lifestyle />} />
           <Route path="/about" exact component={() => <About />} />
           <Route path="/" component={() => <Home />} />
-        </Switch>        
+        </Switch>      
+        
 
         <Footer />
       </Router>

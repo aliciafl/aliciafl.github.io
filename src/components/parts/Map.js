@@ -1,7 +1,7 @@
 import React from "react";
 import { VectorMap } from "react-jvectormap";
 
-import './style.css';
+import './parts.css';
 
 const mapData = {
   LT: 9900,
@@ -23,15 +23,15 @@ const handleClick = (e, countryCode) => {
 };
 const Map = () => {
   return (
-    <div className="map">
+    <div >
       <VectorMap
         map={"world_mill"}
         backgroundColor="transparent" //change it to ocean blue: #0077be
         zoomOnScroll={false}
         containerStyle={{
-          width: "600px",
-          height: "600px"
-        }}
+          width: "100%",
+          height: "32vh"
+        }} 
         onRegionClick={handleClick} //gets the country code
         containerClassName="map"
         regionStyle={{

@@ -1,15 +1,17 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 
-import './style.css';
+import './components.css';
 
-import Map from './Map';
+import Map from './parts/Map';
 
 function Lifestyle() {
     return (
         <div className="lifestyle">
-          <p id="tagged"> Tagged in {window.location.pathname.replace(/^\/+/, '')} </p>
+          <p id="tagged"> Tagged in {useLocation().pathname.replace(/^\/+/, '')} </p>  
 
           <Map/>
+          <br/>
 
           <div class="container">
             <div class="row align-items-center my-5">

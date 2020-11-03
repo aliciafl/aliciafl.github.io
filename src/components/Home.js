@@ -1,12 +1,11 @@
 import React from 'react';
 
-import './style.css';
+import './components.css';
 
 function Home() {
     return (
       <div className="home">
-
-      <p id="tagged"> Tagged in home </p>
+        <p id="tagged"> Tagged in home </p>  
   
       <div class="container">
           <div class="row align-items-center my-5">

@@ -1,11 +1,12 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 
-import './style.css';
+import './components.css';
 
 function Projects() {
     return (
-        <div className="projects">
-          <p id="tagged"> Tagged in {window.location.pathname.replace(/^\/+/, '')} </p>
+        <div className="projects">        
+          <p id="tagged"> Tagged in {useLocation().pathname.replace(/^\/+/, '')} </p>  
 
           <div className="form">
             <p>Crud Application</p>

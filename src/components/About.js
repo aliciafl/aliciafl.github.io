@@ -1,11 +1,12 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 
-import './style.css';
+import './components.css';
 
 function About() {
     return (
       <div className="about">
-      <p id="tagged"> Tagged in {window.location.pathname.replace(/^\/+/, '')} </p>
+        <p id="tagged"> Tagged in {useLocation().pathname.replace(/^\/+/, '')} </p>  
   
         <div class="container">
             <div class="row align-items-center my-5">
