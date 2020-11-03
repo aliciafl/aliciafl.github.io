@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/aliciafl.github.io/static/css/main.48c2631e.chunk.css",
-    "main.js": "/aliciafl.github.io/static/js/main.6c890e05.chunk.js",
-    "main.js.map": "/aliciafl.github.io/static/js/main.6c890e05.chunk.js.map",
+    "main.js": "/aliciafl.github.io/static/js/main.eb00de7f.chunk.js",
+    "main.js.map": "/aliciafl.github.io/static/js/main.eb00de7f.chunk.js.map",
     "runtime-main.js": "/aliciafl.github.io/static/js/runtime-main.9d1a4160.js",
     "runtime-main.js.map": "/aliciafl.github.io/static/js/runtime-main.9d1a4160.js.map",
-    "static/js/2.59090e60.chunk.js": "/aliciafl.github.io/static/js/2.59090e60.chunk.js",
-    "static/js/2.59090e60.chunk.js.map": "/aliciafl.github.io/static/js/2.59090e60.chunk.js.map",
+    "static/js/2.94d2e80b.chunk.js": "/aliciafl.github.io/static/js/2.94d2e80b.chunk.js",
+    "static/js/2.94d2e80b.chunk.js.map": "/aliciafl.github.io/static/js/2.94d2e80b.chunk.js.map",
     "index.html": "/aliciafl.github.io/index.html",
-    "precache-manifest.de7b7bedef4f68915b73f5e71254957c.js": "/aliciafl.github.io/precache-manifest.de7b7bedef4f68915b73f5e71254957c.js",
+    "precache-manifest.ab5d1514b155957a38c4203f0cb5b716.js": "/aliciafl.github.io/precache-manifest.ab5d1514b155957a38c4203f0cb5b716.js",
     "service-worker.js": "/aliciafl.github.io/service-worker.js",
     "static/css/main.48c2631e.chunk.css.map": "/aliciafl.github.io/static/css/main.48c2631e.chunk.css.map",
-    "static/js/2.59090e60.chunk.js.LICENSE.txt": "/aliciafl.github.io/static/js/2.59090e60.chunk.js.LICENSE.txt"
+    "static/js/2.94d2e80b.chunk.js.LICENSE.txt": "/aliciafl.github.io/static/js/2.94d2e80b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9d1a4160.js",
-    "static/js/2.59090e60.chunk.js",
+    "static/js/2.94d2e80b.chunk.js",
     "static/css/main.48c2631e.chunk.css",
-    "static/js/main.6c890e05.chunk.js"
+    "static/js/main.eb00de7f.chunk.js"
   ]
 }
