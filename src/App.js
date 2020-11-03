@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
@@ -16,9 +16,10 @@ import Lifestyle from './components/Lifestyle';
 function App() {
   return (
     <div className="App">
-      <Router>
+      {/* <Router basename={`${process.env.PUBLIC_URL}/`}> */}
+      <Router basename="/">
       <Navigation/>
-      
+
         <Switch>
           <Route path="/projects" exact component={() => <Projects/>} />
           <Route path="/lifestyle" exact component={() => <Lifestyle />} />
